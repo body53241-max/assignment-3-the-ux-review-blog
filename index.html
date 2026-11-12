@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The UX Review</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">The <span>UX Review</span></div>
+
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#articles">LATEST ARTICLES</a>
+        <a href="#authors">AUTHORS</a>
+        <a href="#community">COMMUNITY</a>
+    </nav>
+
+    <button class="subscribe" onclick="subscribe()">
+        SUBSCRIBE NOW
+    </button>
+</header>
+
+<section class="hero" id="home">
+    <div class="container hero-content">
+
+        <div class="hero-text">
+            <span class="tag">🔥 TRENDING BLOG</span>
+
+            <h1>
+                <span>BRUTAL</span><br>
+                <span>THOUGHTS</span><br>
+                <span>BOLD IDEAS</span>
+            </h1>
+
+            <p>
+                Raw, unfiltered content about tech,
+                design, and culture. No sugar-coating,
+                just pure truth that hits different.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#articles" class="btn">
+                    ➤ START READING
+                </a>
+
+                <a href="#community" class="btn white">
+                    ▶️ WATCH INTRO
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            🎨
+        </div>
+
+    </div>
+</section>
+
+<section class="articles" id="articles">
+    <div class="container article-layout">
+
+        <div>
+            <h2 class="section-title">LATEST ARTICLES</h2>
+
+            <div id="article-list">
+
+                <div class="article-card">
+                    <div class="article-img">💻</div>
+
+                    <div class="article-info">
+                        <h3>Why Your Website Needs More Edge</h3>
+                        <p>
+                            Exploring the psychology of design
+                            and bold strategies that create
+                            unforgettable digital experiences.
+                        </p>
+                        <div class="meta">
+                            👤 ALEX BRUTAL • JAN 2026 • 5 MIN READ
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-img">🔤</div>
+
+                    <div class="article-info">
+                        <h3>Typography That Screams</h3>
+                        <p>
+                            How bold fonts and experimental
+                            typography create unforgettable
+                            visual experiences.
+                        </p>
+                        <div class="meta">
+                            👤 ARNOLD REEVE • JAN 2026 • 7 MIN READ
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article-card">
+                    <div class="article-img">📱</div>
+
+                    <div class="article-info">
+                        <h3>The Anti-Instagram Movement</h3>
+                        <p>
+                            Young creatives are abandoning
+                            polished feeds for raw,
+                            authentic content.
+                        </p>
+                        <div class="meta">
+                            👤 MIKE EDGE • JAN 2026 • 4 MIN READ
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="load-more" onclick="loadMore()">
+                + LOAD MORE ARTICLES
+            </button>
+        </div>
+
+        <aside>
+
+            <div class="side-box">
+                <h3>TRENDING NOW</h3>
+ <div class="trend">
+                    <span>01</span> The Death of Minimalism
+                </div>
+ <div class="trend">
+                    <span>02</span> Chaos as a Design System
+                </div>
+
+                <div class="trend">
+                    <span>03</span> Digital Rebellion
+                </div>
+            </div>
+
+            <div class="side-box">
+                <h3>CATEGORIES</h3>
+
+                <a href="#articles" class="category">TECH (24)</a>
+                <a href="#articles" class="category">DESIGN (18)</a>
+                <a href="#articles" class="category">CULTURE (15)</a>
+                <a href="#articles" class="category">OPINION (12)</a>
+                <a href="#articles" class="category">TUTORIALS (9)</a>
+            </div>
+
+        </aside>
+
+    </div>
+</section>
+
+<section class="authors" id="authors">
+    <div class="container">
+
+        <h2>MEET THE AUTHORS</h2>
+        <p class="subtitle">
+            The rebels behind the raw truth
+        </p>
+
+        <div class="author-grid">
+
+            <div class="author-card">
+                <div class="avatar">👨🏻</div>
+                <h3>ALEX BRUTAL</h3>
+                <p>Founder & Chief Editor</p>
+                <p>
+                    Design enthusiast and creative thinker
+                    who challenges everything.
+                </p>
+                <a href="#" class="social">f</a>
+                <a href="#" class="social">in</a>
+                <a href="#" class="social">X</a>
+            </div>
+
+            <div class="author-card">
+                <div class="avatar">👨🏽</div>
+                <h3>ARNOLD REEVE</h3>
+                <p>Lead Writer & Developer</p>
+                <p>
+                    Technology explorer and passionate
+                    storyteller.
+                </p>
+                <a href="#" class="social">f</a>
+                <a href="#" class="social">in</a>
+                <a href="#" class="social">X</a>
+            </div>
+
+            <div class="author-card">
+                <div class="avatar">👨🏻‍💻</div>
+                <h3>MIKE EDGE</h3>
+                <p>Digital Culture Editor</p>
+                <p>
+                    Exploring digital culture and
+                    creative ideas.
+                </p>
+                <a href="#" class="social">f</a>
+                <a href="#" class="social">in</a>
+                <a href="#" class="social">X</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="join" id="community">
+    <div class="container">
+
+        <h2>JOIN THE REBELLION</h2>
+        <p class="subtitle">
+            Where rebels gather to change the digital world
+        </p>
+
+        <div class="join-layout">
+
+            <div>
+                <h3>BECOME PART OF SOMETHING BIGGER</h3>
+
+                <div class="join-box">
+                    <p>
+                        Join thousands of designers,
+                        developers, and digital rebels
+                        who are tired of the same old
+                        boring content.
+                    </p>
+                </div>
+
+                <div class="benefit">
+                    🔴 Weekly brutal insights newsletter
+                </div>
+
+                <div class="benefit">
+                    🔵 Exclusive community discussions
+                </div>
+
+                <div class="benefit">
+                    🟣 Early access to new articles
+                </div>
+
+                <div class="benefit">
+                    🟢 Special events and giveaways
+                </div>
+
+                <button class="btn" onclick="subscribe()">
+                    ➤ JOIN NOW - IT'S FREE
+                </button>
+            </div>
+
+            <div>
+                <h3>WHAT REBELS ARE SAYING</h3>
+<div class="testimonial">
+                    <p>
+                        "Finally, a blog that tells it like
+                        it is. No corporate BS, just real
+                        perspectives."
+                    </p>
+                    <strong>👤 Mark T.</strong>
+                </div>
+   <div class="testimonial">
+                    <p>
+                        "The UX Review changed how I think
+                        about design. Every article
+                        challenges my assumptions."
+                    </p>
+                    <strong>👤 Alex M.</strong>
+                </div>
+
+                <div class="testimonial">
+                    <p>
+                        "The most authentic voice in
+                        digital culture."
+                    </p>
+                    <strong>👤 James L.</strong>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+                <h3>◈ THE UX REVIEW</h3>
+                <p>
+                    Raw, unfiltered thoughts on tech,
+                    design and digital culture.
+                    No compromise, just pure truth.
+                </p>
+            </div>
+
+            <div>
+                <h3>CATEGORIES</h3>
+                <a href="#articles">TECH</a>
+                <a href="#articles">DESIGN</a>
+                <a href="#articles">CULTURE</a>
+                <a href="#articles">OPINION</a>
+                <a href="#articles">TUTORIALS</a>
+            </div>
+
+            <div>
+                <h3>NEWSLETTER</h3>
+                <p>Get brutal insights delivered weekly.</p>
+
+                <form onsubmit="newsletter(event)">
+                    <input type="email"
+                    placeholder="YOUR EMAIL ADDRESS" required>
+
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 The UX Review. ALL RIGHTS RESERVED.
+        </div>
+
+    </div>
+</footer>
+
+<script>
+function subscribe() {
+    document.querySelector("footer").scrollIntoView({
+        behavior: "smooth"
+    });
+
+    document.querySelector("footer input").focus();
+}
+
+function newsletter(event) {
+    event.preventDefault();
+
+    alert("Thank you for subscribing!");
+
+    event.target.reset();
+}
+
+function loadMore() {
+    const list = document.getElementById("article-list");
+
+    const articles = [
+        {
+            icon: "🚀",
+            title: "The Future of Web Design",
+            desc: "Discover new trends changing web design."
+        },
+        {
+            icon: "🎨",
+            title: "Creative Ideas That Matter",
+            desc: "How creativity can change your digital experience."
+        }
+    ];
+
+    articles.forEach(article => {
+        const card = document.createElement("div");
+
+        card.className = "article-card";
+
+        card.innerHTML = 
+ articles.forEach(article => {
+    const card = document.createElement("div");
+
+    card.className = "article-card";
+
+    card.innerHTML = 
+ 
+
+    list.appendChild(card);
+});
+
+        list.appendChild(card);
+    });
+
+    document.querySelector(".load-more").textContent =
+        "ALL ARTICLES LOADED";
+
+    document.querySelector(".load-more").disabled = true;
+}
+</script>
+
+</body>
+</html>                               
